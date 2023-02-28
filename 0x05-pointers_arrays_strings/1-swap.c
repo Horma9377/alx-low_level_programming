@@ -1,4 +1,4 @@
-#icnlude "main.h"
+#include "main.h"
 
 /**
  * swap_int - swaps the two integers
@@ -8,8 +8,8 @@
 
 void swap_int(int *a, int *b)
 {
-int n;
-a = *b;
+int m;
+m = *a;
 *a = *b;
 *b = m;
 }
